@@ -41,8 +41,9 @@ document.getElementById("generate").addEventListener("click", function () {
 
     }
 
-    // password = characters.length;
+//========================== Update Webpage ======================================
     document.getElementById("password").textContent = password;
+    document.getElementById("copy").style.backgroundColor = "green";
 });
 
 
