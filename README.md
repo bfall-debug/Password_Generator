@@ -53,7 +53,8 @@ To see the site in action please use the link below
 
 https://bfall-debug.github.io/Password_Generator/
 
-![screenshot](./Assets/images/screenshot.png)
+
+![screenshot](assets/images/screenshot.PNG)
 
 ## List of Known Issues or Potential updates
 
