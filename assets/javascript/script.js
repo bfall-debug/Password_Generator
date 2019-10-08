@@ -56,7 +56,7 @@ document.getElementById("copy").addEventListener("click", function () {
     }
 
     document.execCommand("copy");
-
+    document.getElementById("copy").style.backgroundColor = "silver";
 });
 
 
