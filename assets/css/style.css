@@ -25,6 +25,7 @@ html body {
     border-style: dashed;
     border-color: lightgray;
     border-width: 2px;
+    overflow-wrap: break-word;
 }
 
 #btnrow {
