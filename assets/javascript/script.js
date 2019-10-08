@@ -35,7 +35,6 @@ document.getElementById("generate").addEventListener("click", function () {
     for( i = 0; i < length; i++){
         char = Math.random() * Num;
         char = Math.floor(char);
-        char++ ;
         char = characters.charAt(char);
         password = password + char;
     }
