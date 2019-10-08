@@ -1,3 +1,4 @@
+//**************** Script for Generate Password Button *******************
 document.getElementById("generate").addEventListener("click", function () {
  //========================== User Input ======================================
     var characters = "";
@@ -33,9 +34,9 @@ document.getElementById("generate").addEventListener("click", function () {
     var password = ""
     var Num = characters.length;
     for( i = 0; i < length; i++){
-        char = Math.random() * Num;
-        char = Math.floor(char);
-        char = characters.charAt(char);
+        charNum = Math.random() * Num;
+        charNum = Math.floor(charNum);
+        char = characters.charAt(charNum);
         password = password + char;
     }
 
@@ -48,7 +49,7 @@ document.getElementById("generate").addEventListener("click", function () {
 
 });
 
-
+//**************** Script for Copy to Clipboard Button *******************
 document.getElementById("copy").addEventListener("click", function () {
  //========================== Copy Password To Clip Board ======================================
     with (document.getElementById("password")){
