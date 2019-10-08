@@ -36,14 +36,16 @@ document.getElementById("generate").addEventListener("click", function () {
         char = Math.floor(char);
         char++ ;
         char = characters.charAt(char);
-        console.log(char);
         password = password + char;
-
     }
 
 //========================== Update Webpage ======================================
     document.getElementById("password").textContent = password;
-    document.getElementById("copy").style.backgroundColor = "green";
+    with (document.getElementById("copy")){
+        style.backgroundColor = "green";
+        focus();
+    }
+
 });
 
 
