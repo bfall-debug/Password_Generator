@@ -1,11 +1,13 @@
 document.getElementById("generate").addEventListener("click", function () {
  //========================== User Input ======================================
     var characters = "";
+    var minChar = 8;
+    var maxChar = 128;
     // Desired Length of Password
     do{
         length = prompt("Please select a password length between 8 and 128");
         if (length == null) { return; }
-    } while ( (length != null && length != NaN  && (length < 8 || length > 128))      || isNaN(length) )
+    } while ( (length != null && length != NaN  && (length < minChar || length > maxChar))      || isNaN(length) )
 
     // Special Characters
     if(confirm("Do you require SPECIAL characters in your password?")){
