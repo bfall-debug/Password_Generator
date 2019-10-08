@@ -1,0 +1,51 @@
+html body {
+    background-color: whitesmoke;
+    color: darkslategray;
+}
+#main-container {
+    background-color: ghostwhite;
+}
+
+#content-container {
+    background-color: white;
+    border-style: solid;
+    border-color: snow;
+    border-width: 2px;
+}
+
+#headerrow {
+    border-bottom-style: solid;
+    border-color: lightgray;
+    border-bottom-width: 2px;
+}
+
+#password {
+    resize: none;
+    background-color: white;
+    border-style: dashed;
+    border-color: lightgray;
+    border-width: 2px;
+}
+
+#btnrow {
+    border-top-style: solid;
+    border-color: lightgray;
+    border-top-width: 2px;
+}
+
+#generate {
+    border-radius: 30pt;
+    background-color: darkred;
+    border-color: darkred;
+    width: 170pt;
+}
+
+#copy {
+    border-radius: 30pt;
+    background-color: lightgray;
+    border-color: lightgray;
+    width: 170pt;
+    text-align: center;
+    
+
+}

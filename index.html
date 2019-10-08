@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body class="">
+    <div class="container pb-3 mt-5" id="main-container">
+        <div class="row">
+            <div class="col-md-12">
+                <header>
+                    <h1 class="text-center py-3">Password Generator</h1>
+                </header>
+                <div class="container-fluid p-4 mt-4" id="content-container">
+                    <div class="row  mb-2 pb-3  mx-1" id="headerrow">
+                        <div class="col-md-12 px-0">
+                            <h2>Generate a Password</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <textarea class="form-control text-center p-3" rows="5" readonly id="password"
+                                placeholder="Your Secure Password" aria-label="Generated Password"></textarea>
+                        </div>
+                    </div>
+                    <div class="row my-2 pt-3 mx-1" id="btnrow">
+                        <div class="col-md-6 ">
+                            <button class="btn btn-primary btn-lg py-1" id="generate">Generate Password</button>
+                        </div>
+                        <div class="col-md-6 " style="text-align: right;">
+                            <button class="btn btn-secondary btn-lg py-1" id="copy">
+                                Copy to Clipboard
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
