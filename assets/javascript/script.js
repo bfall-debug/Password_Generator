@@ -1,7 +1,6 @@
 document.getElementById("generate").addEventListener("click", function () {
+ //========================== User Input ======================================
     var characters = "";
-    
-//========================== User Input ======================================
     // Desired Length of Password
     do{
         length = prompt("Please select a password length between 8 and 128");
@@ -28,7 +27,7 @@ document.getElementById("generate").addEventListener("click", function () {
         characters = characters + "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     }
 
-//========================== Password Generation ======================================
+ //========================== Password Generation ======================================
     var password = ""
     var Num = characters.length;
     for( i = 0; i < length; i++){
@@ -39,7 +38,7 @@ document.getElementById("generate").addEventListener("click", function () {
         password = password + char;
     }
 
-//========================== Update Webpage ======================================
+ //========================== Update Webpage ======================================
     document.getElementById("password").textContent = password;
     with (document.getElementById("copy")){
         style.backgroundColor = "green";
@@ -49,22 +48,14 @@ document.getElementById("generate").addEventListener("click", function () {
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 document.getElementById("copy").addEventListener("click", function () {
+ //========================== Copy Password To Clip Board ======================================
+    with (document.getElementById("password")){
+        select();
+        alert("Copied the text: " + value);
+    }
+
+    document.execCommand("copy");
 
 });
 
