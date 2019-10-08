@@ -35,15 +35,15 @@ html body {
 
 #generate {
     border-radius: 30pt;
-    background-color: darkred;
-    border-color: darkred;
+    background-color: firebrick;
+    border-color: firebrick;
     width: 170pt;
 }
 
 #copy {
     border-radius: 30pt;
-    background-color: lightgray;
-    border-color: lightgray;
+    background-color: silver;
+    border-color: silver;
     width: 170pt;
     text-align: center;
     
