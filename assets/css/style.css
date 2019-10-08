@@ -1,9 +1,9 @@
 html body {
-    background-color: whitesmoke;
+    background-image: url("../images/dark_embroidery.png");
     color: darkslategray;
 }
 #main-container {
-    background-color: ghostwhite;
+    background-color: lightgray;
 }
 
 #content-container {
