@@ -62,8 +62,4 @@ https://bfall-debug.github.io/Password_Generator/
 
 ## List of Known Issues or Potential updates
 
-* The generator doesnt guarentee all of your character selection paramters will be used
-
-* The Copy to Clipboard button will still run even if the Generate Password Button hasn't been run yet.
-
-* Have text in password be made from randomly generated words. For longer passwords words are strung together.
+* None - All issues have been fixed
